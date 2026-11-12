@@ -44,10 +44,12 @@ dsh-plugin-hello/
 ## 从 GitHub 安装
 
 ```bash
-dsh plugin --profile web add github:你的账号/dsh-plugin-hello
+dsh plugin --profile web add github:aetherwon28/dsh-plugin-hello
 ```
 
 同样需要在 `cordis.patch.yml` 里加那条 `insert`。
+
+仓库：<https://github.com/aetherwon28/dsh-plugin-hello>
 
 ## 改成你自己的插件
 
