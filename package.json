@@ -1,0 +1,24 @@
+{
+  "name": "dsh-plugin-hello",
+  "version": "0.1.0",
+  "description": "Minimal DeepSeek Harness plugin template: registers one model-facing tool",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
